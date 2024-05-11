@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100;1,200;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+nav{
+    height: 40px;
+    width: 100%;
+    box-shadow: 1px 0px 5px rgb(154, 154, 154);
+}
+a{
+    font-size: 1.6rem;
+    padding: 10px 5%;
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 1.7rem;
+}
+.mainblock{
+    height: 92%;
+    width: 100%;
+    display: flex;
+}
+.maincart{
+    margin-top: 20px;
+    height: 89%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: row;
+}
+.items{
+    height: 100% ;
+    width: 60%;
+    background-color: rgb(243, 243, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: scroll;
+    margin-left: 20px;
+    /* padding-top:250px ; */
+}
+#empty{
+    font-size: 11rem;
+    margin-bottom: 2%;
+    color: rgb(61, 67, 70);
+    text-shadow: 10px 10px 15px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+.additems{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    background-color: lightblue;
+}
+
+.total{
+    margin-left: 20px;
+    height: 500px;
+    width: 30%;
+    background-color:rgb(243, 243, 213);
+    border-top: 3px solid black;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(188, 188, 188);
+    border-radius: 20px;
+}
+.divi1{
+    height: 150px;
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+}
+.divi1>img{
+    height: 100px;
+    width: 70px;
+    margin-right: 20px;
+    margin-top: 10ox;
+    margin-bottom: 10px;
+}
+.divi1>h1{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#noitem{
+    
+}

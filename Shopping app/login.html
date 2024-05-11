@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body>
+    <div class="bgdiv">
+    <div class="main" id="main">
+    <section class="loginpage" id="loginpage">
+        <label for="login" class="title">Login</label>
+        <div class="input">
+            <label for="email" class="em">Email</label><input type="email" name="email" id="email" required>
+        </div>
+        <div class="input">
+        <label for="pass" class="ps">Password</label><input type="password" name="pass" id="pass" required>
+        </div>
+        <div class="check"><input type="checkbox" name="remember" id="remember"> <label for="remember"> Remember me</label>
+        <a href="" class="fp"><label for="forget">Forget Password</label></a></div>
+        <a href="./homepage.html"><button class="login" id="loginb" value="login">Login</button></a>
+        <label for="registration">Don't have an account ? <button id="registor">Registration</button></label>
+    </section>
+    <section class="registor" id="registorpage">
+        <label for="registor" class="rtitle">Registor</label>
+        <div class="input">
+            <label for="user" class="user">User Name</label><input type="text" name="user" id="email">
+        </div>
+        <div class="input">
+            <label for="email" class="em">Email</label><input type="email" name="email" id="email">
+        </div>
+        <div class="input">
+        <label for="pass" class="ps" id="ps">Password</label><input type="password" name="pass" id="pass">
+        </div>
+        <div class="input">
+            <label for="cpass" class="cps" id="cps"> Conform Password</label><input type="password" name="cpass" id="pass">
+            </div>
+        <div class="check"><input type="checkbox" name="agree" id="agree"><label for="agree"> I agree to the terms & conditions</label></div>
+        <button class="Registorb" id="Registorb" value="registor">Registor</button>
+        <label for="registration">Already have an account ? <button id="login">login</button></label>
+    </section>
+</div>
+</div>
+<script src="./login.js"></script>
+</body>
+</html>
